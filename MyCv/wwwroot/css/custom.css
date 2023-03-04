@@ -411,7 +411,7 @@ header .navbar.sticky-header {
         display: block;
         width: 40px;
         height: 4px;
-        background: #ff5d56;
+        background: #6ea8fe;
         position: absolute;
         left: 0;
         bottom: 0;
@@ -448,7 +448,7 @@ header .navbar.sticky-header {
         }
 
         .about-content ul li i {
-            color: #ff5d56;
+            color: #6ea8fe;
             font-size: 20px;
             position: absolute;
             top: 0;
@@ -538,7 +538,7 @@ header .navbar.sticky-header {
     color: #fff;
     font-size: 18px;
     font-weight: 400;
-    background: #ff5d56;
+    background: #6ea8fe;
     padding: 14px 20px;
     text-transform: uppercase;
     margin-bottom: 50px;
@@ -663,7 +663,7 @@ header .navbar.sticky-header {
 /***************************************/
 
 .portfolio {
-    background: #151515;
+    /*background: #151515;*/
     padding: 100px 0;
 }
 
@@ -1434,7 +1434,7 @@ header .navbar.sticky-header {
 /****************************************/
 
 .main-footer {
-    padding: 100px 0;
+    /* padding: 100px 0;*/
     background: #151515;
 }
 
@@ -1452,20 +1452,20 @@ header .navbar.sticky-header {
             color: #ff5d56;
         }*/
 
-.footer-about {
+/*.footer-about {
     max-width: 568px;
     margin: 30px auto 0;
     text-align: center;
-}
+}*/
 
-    .footer-about p {
+/*    .footer-about p {
         line-height: 1.6em;
         margin-bottom: 1.6em;
-    }
+    }*/
 
 .footer-social {
     text-align: center;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
     .footer-social a {
@@ -1490,9 +1490,9 @@ header .navbar.sticky-header {
 
 .footer-copyright {
     max-width: 568px;
-    margin: 40px auto 0;
+    margin: 20px auto 0;
     text-align: center;
-    padding-top: 40px;
+    padding-top: 20px;
     position: relative;
 }
 
@@ -1570,7 +1570,7 @@ header .navbar.sticky-header {
     }
 
     .banner {
-        background-position: top right;
+        background: none;
     }
 
     .section-title {
