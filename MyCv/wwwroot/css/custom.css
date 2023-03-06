@@ -175,7 +175,7 @@ header .navbar {
 }
 
 .navbar-brand h1 {
-    /* */
+
     font-weight: normal;
     transition: all 0.3s;
     color: #fff;
@@ -237,6 +237,9 @@ header .navbar.sticky-header {
 
 .sticky-header .navbar-brand img {
     height: 40px;
+}
+.sticky-header .navbar-brand h1 {
+    font-size:24px;
 }
 
 .navbar-toggle {
