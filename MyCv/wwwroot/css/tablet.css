@@ -1,0 +1,178 @@
+﻿/*******************************************/
+/*****     Media Query Css for Tablet   ****/
+/*******************************************/
+
+@media only screen and (max-width: 991px) {
+    .header .navbar-nav {
+        display: none;
+    }
+
+    .header .navbar {
+        align-items: flex-end;
+    }
+
+    .navbar-brand {
+        padding: 13px 0;
+    }
+
+    .header .navbar .container {
+        position: relative;
+        flex-wrap: wrap;
+        text-align: right;
+    }
+
+    .header .navbar-toggle,
+    #responsive-menu {
+        display: block;
+        width: 100%;
+    }
+
+    .about-us,
+    .portfolio,
+    .testimonials,
+    .newsletter,
+    .contactus,
+    .main-footer {
+        padding: 60px 0;
+    }
+
+    .services,
+    .my-resume,
+    .our-team,
+    .pricing,
+    .latest-blog {
+        padding: 60px 0 30px;
+    }
+
+    .banner {
+        background: none;
+    }
+
+    .section-title {
+        padding-bottom: 10px;
+        margin-bottom: 60px;
+    }
+
+        .section-title h2 {
+            font-size: 26px;
+        }
+
+        .section-title:after {
+            width: 48px;
+            margin-left: -24px;
+            border-width: 8px;
+        }
+
+        .section-title p {
+            font-size: 14px;
+        }
+
+    .newsletter-content h3 {
+        font-size: 22px;
+    }
+
+    .newsletter-content p {
+        font-size: 16px;
+    }
+
+    .about-image {
+        margin-bottom: 50px;
+    }
+
+    .team-single {
+        margin-bottom: 65px;
+    }
+
+    .contact-info-single {
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .about-content ul li {
+        width: 100%;
+        float: none;
+    }
+
+    .banner {
+       padding: 160px 0 60px;
+    }
+
+    .banner-content h2 {
+        font-size: 16px;
+    }
+
+        .banner-content h2 span {
+            font-size: 16px;
+        }
+
+    .banner-content p {
+        font-size: 16px;
+    }
+
+    .about-content h3 {
+        font-size: 22px;
+    }
+
+    .service-single .icon-box {
+        font-size: 40px;
+    }
+
+    .experience {
+        margin-bottom: 50px;
+    }
+
+    .skill-content {
+        margin-bottom: 20px;
+    }
+
+    .experience-single {
+        padding: 20px;
+    }
+
+        .experience-single h5 {
+            font-size: 16px;
+        }
+
+        .experience-single h4 {
+            font-size: 16px;
+        }
+
+    .pricing-single {
+        margin-bottom: 30px;
+    }
+
+    .newsletter-form .form-group {
+        margin: 0;
+    }
+
+    .newsletter-form .form-inline {
+        padding: 0;
+        border-radius: 0;
+    }
+
+    .newsletter-form .form-control {
+        float: left;
+        font-size: 16px;
+        padding: 0 16px;
+    }
+
+    .newsletter-form .btn-subscribe {
+        float: right;
+        padding: 0;
+        padding-top: 8px;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .blog-single {
+        margin-bottom: 30px;
+    }
+
+    .footer-social a {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 20px;
+    }
+}

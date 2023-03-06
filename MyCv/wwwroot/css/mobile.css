@@ -1,0 +1,44 @@
+﻿/*********************************/
+/***** Media Query Css for Mobile ***/
+/*********************************/
+
+@media only screen and (max-width: 575px) {
+
+    .header .container {
+        width: 100%;
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+
+    .portfolio-nav ul li a {
+        padding: 4px 6px;
+        margin: 0 2px;
+        font-size: 14px;
+    }
+
+    .pricing-body {
+        padding: 30px 20px;
+    }
+
+    .testimonial-header h3 {
+        font-size: 20px;
+    }
+
+    .testimonial-header h4 {
+        font-size: 16px;
+    }
+
+    .testimonial-single p {
+        font-size: 16px;
+    }
+
+    .testimonial-pagination {
+        margin-top: 0;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .banner-content h2 span {
+        font-size: 12px;
+    }
+}
