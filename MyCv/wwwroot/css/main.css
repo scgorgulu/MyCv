@@ -321,6 +321,8 @@ header .navbar.sticky-header {
         color: #fff;
     }
 
+
+
 .experience-single {
     background: #222;
     padding: 40px 30px;
@@ -356,6 +358,10 @@ header .navbar.sticky-header {
         margin: 0;
         line-height: 1.6em;
     }
+
+.education{
+    margin-bottom:50px;
+}
 
 .experience-pagination,
 .education-pagination {
