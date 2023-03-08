@@ -7,6 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Doc Files\**" />
+    <Content Remove="Doc Files\**" />
+    <EmbeddedResource Remove="Doc Files\**" />
+    <None Remove="Doc Files\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.12" />
   </ItemGroup>
 
